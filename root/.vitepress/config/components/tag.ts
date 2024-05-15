@@ -12,7 +12,7 @@ export type Config = {
 
 
 export const locales = localesOf<Config>({
-    'zh-CN' : {
+    root : {
         title: '标签',
         count: '共 {count} 篇',
         none: '无标签',

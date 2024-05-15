@@ -23,7 +23,7 @@ export const config = {
 }
 
 export const locales = localesOf<Config>({
-    'zh-CN' : {
+    root : {
         author: '作者',
         authorLink:'进入作者主页',
         unknownTime: '未知时间',

@@ -124,12 +124,11 @@ import relativeTime from "dayjs/plugin/relativeTime";
 import { goToLink } from "../utils";
 import { config, locales as metadataLocales } from "../../config/components/metadata";
 import { unknownAuthorId,ownerId,locales as authorLocales } from "../../config/author";
-import { useData } from "vitepress";
 import { categories,locales as categoryLocales } from "../../config/components/categories"; 
 
 dayjs.extend(relativeTime);
-dayjs.locale("zh-cn");
-const { lang } = useData()
+dayjs.locale("root");
+const lang = {value:'root'}
 const locale = metadataLocales[lang.value];
 const defaultAuthor = authorLocales[lang.value][unknownAuthorId];
 const authors = authorLocales[lang.value];

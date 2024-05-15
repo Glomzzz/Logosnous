@@ -9,7 +9,7 @@ import {
   GitChangelogMarkdownSection, 
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
-import { locales as gitchangelog } from './.vitepress/config/components/gitchangelog'
+import { locales as gitChangeLogLocales } from './.vitepress/config/components/gitchangelog'
 
 import Components from 'unplugin-vue-components/vite';
 import { ArcoResolver } from 'unplugin-vue-components/resolvers';
@@ -40,31 +40,23 @@ export default defineConfig(() => {
         resolvers: [ArcoResolver({ sideEffect: true, resolveIcons: true })]
       }),
       GitChangelog({ 
-        rewritePaths: {
-          'root/': '',
-        },
         repoURL: () => repoURL, 
+        
         
       }), 
       GitChangelogMarkdownSection({
-        locales:{
-          'zh-CN': { 
-            gitChangelogMarkdownSectionTitles: { 
-              changelog: '文件历史', 
-              contributors: '贡献者', 
-            }, 
-          }, 
-          'en': { 
-            gitChangelogMarkdownSectionTitles: { 
-              changelog: 'File History', 
-              contributors: 'Contributors', 
-            }, 
-          }, 
-        }
+        // locales:gitChangeLogLocales
+        // waiting for Neko to fix.
+        getChangelogTitle: (): string => {
+          return '文件历史'
+        },
+        getContributorsTitle: (): string => {
+          return '贡献者'
+        },
       }),
       Inspect(),
       UnoCSS(),
-      ThumbnailHashImages(),
+      // ThumbnailHashImages(),
       PageProperties(),
       PagePropertiesMarkdownSection({
         exclude(path:string):boolean{

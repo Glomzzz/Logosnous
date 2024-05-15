@@ -1,6 +1,7 @@
 ---
 # 不进行归档
 metadata: false
+gitChangelog: false
 layout: home
 
 hero:
@@ -13,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zh-CN/archive
+      link: /archive
     - theme: alt
     - text: 加入 Discord 服务器
       link: https://discord.gg/RhNEzUxb

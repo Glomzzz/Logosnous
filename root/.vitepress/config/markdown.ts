@@ -11,9 +11,9 @@ export const markdown: MarkdownOptions = {
     md.use(BiDirectionalLinks({ 
       dir: cwd(),
     }))
-    md.use(UnlazyImages(), {
-      imgElementTag: 'NolebaseUnlazyImg',
-    })
+    // md.use(UnlazyImages(), {
+    //   imgElementTag: 'NolebaseUnlazyImg',
+    // })
   },
 };
 import { locales as tagLocales } from '../config/components/tag';

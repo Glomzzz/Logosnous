@@ -21,6 +21,9 @@ Librorum , 取自 Index librorum prohibitorum, 意为禁书目录，旨在提供
 > 向权威发出挑战！/ Challenge the authority!
 
 
+这里是root版，仅支持单语言，适合当做博客模板。
+
+
 ## 特点
 
 - 📚 **系统**：文章附带分类，标签与归档系统，方便查找和阅读。

@@ -97,9 +97,8 @@ import { getQueryParam } from "../utils";
 //@ts-ignore
 import { data as localesData } from "../article.data.js";
 import { locales } from "../../config/components/tag";
-import { useData } from "vitepress";
 
-const { lang } = useData()
+const lang = {value:'root'}
 
 const articleData = localesData[lang.value] ?? [];
 const locale = locales[lang.value];

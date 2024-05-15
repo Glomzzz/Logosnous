@@ -51,6 +51,9 @@ import {
   NolebaseGitChangelogPlugin 
 } from '@nolebase/vitepress-plugin-git-changelog/client'
 
+import { InjectionKey as GitChangelogKey } from '@nolebase/vitepress-plugin-git-changelog/client'
+
+
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
 import {properties} from '../config/components/properties'
@@ -81,8 +84,17 @@ export const Theme: ThemeConfig = {
       },
     } as NolebaseEnhancedReadabilitiesOptions)
     app.use(NolebaseGitChangelogPlugin)  
-    app.use(NolebaseInlineLinkPreviewPlugin)
-    app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
+    // app.provide(GitChangelogKey,{
+    //   mapContributors:[
+    //     { 
+    //       name: 'Glomzzz', 
+    //       email: 'glom@skillw.com',
+    //       nameAlias: ['Glom-c','Glomzzz'],
+    //     } 
+    //   ]
+    // })
+        app.use(NolebaseInlineLinkPreviewPlugin)
+    // app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
     app.component('WordCloud',WordCloud)
     app.component('ArticleMetadata',ArticleMetadata)
     app.component('Tag', Tag)

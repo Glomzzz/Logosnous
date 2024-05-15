@@ -9,7 +9,7 @@ type Author = {
 
 export const locales = localesOf<Record<string,Author>>({})
 
-locales['zh-CN'] =    {
+locales['root'] =    {
     'Glomzzz': {
         name: 'Glomzzz',
         icon: '/assets/authors/glomzzz.png',

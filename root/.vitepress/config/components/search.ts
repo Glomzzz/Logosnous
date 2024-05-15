@@ -3,7 +3,7 @@ import  { DefaultTheme } from 'vitepress/theme';
 
 export const localSearchOptions: DefaultTheme.LocalSearchOptions = {
   locales: {
-    'zh-CN': {
+    root : {
       translations: {
         button: {
           buttonText: '搜索文档',
@@ -28,7 +28,7 @@ export const algoliaSearchOptions: DefaultTheme.AlgoliaSearchOptions = {
   apiKey: '',
   indexName: '',
   locales: {
-    'zh-CN': {
+    root : {
       placeholder: '搜索文档',
       translations: {
         button: {

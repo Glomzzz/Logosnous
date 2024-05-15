@@ -8,7 +8,7 @@ export type Category = {
 type Config = Record<string,string>
 
 export const locales = localesOf<Config>({
-    'zh-CN': {
+    root : {
         tech: '技术',
         life: '生活',
         none: '无分类'
