@@ -21,7 +21,7 @@ Glom 希望能够跟踪自己的成长轨迹，同时与他人分享其对生活
 
 你可以在这里访问： [https://glom.skillw.com](https://glom.skillw.com)
 
-本项目基于 [Librurom](https://github.com/Glomzzz/Librurom.git) (VitePress) 构建.
+本项目基于 [Librorum](https://github.com/Glomzzz/Librorum.git) (VitePress) 构建.
 
 
 ## 如何部署？
