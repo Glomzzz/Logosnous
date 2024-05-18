@@ -11,6 +11,7 @@ export const locales = localesOf<Config>({
     root : {
         tech: '技术',
         life: '生活',
+        philosophy: '哲学',
         none: '无分类'
     },
     'en': {
@@ -28,6 +29,10 @@ export const categories:Record<string,Category> = {
     'life': {
         name: 'life',
         icon: '/assets/components/categories/life.svg'
+    },
+    'philosophy': {
+        name: 'philosophy',
+        icon: '/assets/components/categories/philosophy.svg'
     },
     'none': {
         name: 'none',
