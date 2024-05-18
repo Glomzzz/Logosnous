@@ -12,15 +12,9 @@ export interface Site{
 
 export const locales = localesOf({
   root:{
-    title: '禁书目录例子',
-    description: '技术知识库。',
+    title: 'Glom的心智档案',
+    description: '心智成长档案库。',
     link: '/',
     unknown: 'unknown.md',
-  },
-  'en':{
-    title: 'Librorum Example',
-    description: 'Technical knowledge base.',
-    link: '/en/',
-    unknown: 'en/unknown.md',
   }
 });

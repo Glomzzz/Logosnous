@@ -47,6 +47,10 @@ export default defineConfig({
   themeConfig: {
     nav: [],
     sidebar: [],
+    outline:{
+      level: [1,7],
+      label: '大纲'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Glomzzz/Librorum' }
     ],
