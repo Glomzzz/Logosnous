@@ -22,7 +22,7 @@ category: life
 
 > 人生第一次坐警车
 
-![[assets/blogs/diary/5-9/police-car.jpg]]
+![](/assets/blogs/diary/5-9/police-car.jpg)
 
 > 其实还有两张派出所内的照片，但我不敢放上来喵。。
 
@@ -53,7 +53,7 @@ category: life
 
 胜利结算画面：
 
-![[assets/blogs/diary/5-9/success.jpg]]
+![](/assets/blogs/diary/5-9/success.jpg)
 
 事后来看，我的决定是谨慎的，这是正确的
 - 我对老板非常客气委婉，因为我本人就在上海，我害怕我人身安全受到威胁。
@@ -72,7 +72,7 @@ category: life
 
 >附一张上海博物馆附近类似教堂的建筑
 
-![[assets/blogs/diary/5-9/finally.jpg]]
+![](/assets/blogs/diary/5-9/finally.jpg)
 
 
 # 记一次争论，从针锋相对到言归于好

@@ -45,7 +45,7 @@ category: life
 
 这个校区是新建的，真的很大呢。
 
-![[assets/blogs/diary/5-17/map.jpg]]
+![](/assets/blogs/diary/5-17/map.jpg)
 
 朋友是在这个校区上学的，对PL有着浓厚兴趣，看起来很有激情。
 
@@ -55,7 +55,7 @@ category: life
 
 #### 探探图书馆
 
-![[assets/blogs/diary/5-17/library.jpg]]
+![](/assets/blogs/diary/5-17/library.jpg)
 
 说起来，同济大学的图书检索系统可真老旧，几台终端动不动就卡住，不能访问，或是直接死机
 朋友评价为：传家宝系统。
@@ -71,7 +71,7 @@ category: life
 
 真羡慕这么大的校区，有单独的生活区，全是好吃的。
 
-![[assets/blogs/diary/5-17/life_zone.jpg]]
+![](/assets/blogs/diary/5-17/life_zone.jpg)
 
 食堂也便宜得很，这就是计划模式的高等教育的好处吧。
 
@@ -117,7 +117,7 @@ category: life
 第一次吃，居然有这么便宜实惠的西餐厅。
 点的芝士土豆泥+墨汁意面（二乔同款）非常的香甜与美味，（感谢 Wtz_LASR 的款待）
 
-![[assets/blogs/diary/5-17/food.jpg]]
+![](/assets/blogs/diary/5-17/food.jpg)
 
 （真的很好吃
 
@@ -132,7 +132,7 @@ category: life
 引入**purely function**再配合 **lazy evaluation** 可以很好的做`Equational reasoning` （正好帝球和我的讨论提到了）
 
 令我震惊的是，很多人居然没有意识到这点，因为我在意识到**Haskell**有这两者后就有这个想法了。
-![[assets/blogs/diary/5-17/lazy-eval-with-pure-func.png]]
+![](/assets/blogs/diary/5-17/lazy-eval-with-pure-func.png)
 
 
 #### Asahi的性能为什么相较于其他实现一骑绝尘
@@ -165,8 +165,8 @@ category: life
 
 我会跟进各个feat实现的进度与遇到的问题。
 
-![[assets/blogs/diary/5-17/view_1.jpg]]
-![[assets/blogs/diary/5-17/view_2.jpg]]
+![](/assets/blogs/diary/5-17/view_1.jpg)
+![](/assets/blogs/diary/5-17/view_2.jpg)
 
 ## 回嘉兴的路上
 
