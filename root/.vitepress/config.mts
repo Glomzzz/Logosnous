@@ -40,7 +40,7 @@ export default defineConfig({
   },
 
   vite:{
-    plugins:[ AutoSidebar()]
+    // plugins:[ AutoSidebar()]
   },
 
   themeConfig: {
