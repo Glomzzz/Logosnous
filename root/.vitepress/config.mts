@@ -5,6 +5,7 @@ import { getNav } from './config/nav'
 import AutoSidebar, { locales as sidebarLocales } from './config/sidebar'
 import { locales as siteLocales } from './config/site'
 import {provider,search} from './config/components/search'
+import { genCategories } from './config/components/categories';
 
 export const locales = (()=>{
   const config:any = {}
@@ -14,7 +15,7 @@ export const locales = (()=>{
       ...langs[name],
       ...siteLocales[name],
       themeConfig: {
-        nav: getNav(lang.lang),
+        nav: getNav(lang.lang) ?? getNav(name),
         sidebar: sidebarLocales[name]
       }
     }

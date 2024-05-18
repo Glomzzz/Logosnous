@@ -29,31 +29,6 @@ import { rootMode } from './locales';
           ],
           activeMatch: '/about/'
         },
-      ],
-    en:[
-        {
-            text: 'Blog',
-            items: genCategories('en'),
-            activeMatch: '/blogs'
-        },
-        {
-          text: 'Tags',
-          link: '/tag',
-          activeMatch: '/tag'
-        },
-        {
-          text: 'Archive',
-          link: '/archive',
-          activeMatch: '/archive'
-        },
-        {
-          text: 'About',
-          items: [
-            { text: 'About Librorum', link: '/about/index', activeMatch: '/about/index' },
-            { text: 'About Me', link: '/about/me', activeMatch: '/about/me' }
-          ],
-          activeMatch: '/about/'
-        },
       ]
 };
 
