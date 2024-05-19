@@ -70,7 +70,7 @@
       <span class="meta-content">
         <a
             href="javascript:void(0);"
-            @click="goToLink(lang,'/archive', 'category', categoryName)"
+            @click="goToLink('archive', 'category', categoryName)"
             target="_self"
             :title="categoryDisplay"
             >{{ categoryDisplay }}</a
@@ -90,7 +90,7 @@
         <span v-for="(tag, index) in tags" :key="index">
           <a
             href="javascript:void(0);"
-            @click="goToLink(lang,'/archive', 'tag', tag)"
+            @click="goToLink('archive', 'tag', tag)"
             target="_self"
             :title="tag"
             >{{ tag }}</a

@@ -21,10 +21,10 @@ export function getQueryParam(paramName:string) {
  * @param paramName 参数名
  * @param paramValue 参数值
  */
-export function goToLink(lang:string, url:string, paramName?:string, paramValue?:string) {
+export function goToLink(url:string, paramName?:string, paramValue?:string) {
   if (paramName) {
-    window.location.href = '/'+ lang + url + '?' + paramName + '=' + paramValue;
+    window.location.href = '/' + url + '?' + paramName + '=' + paramValue;
   } else {
-    window.location.href =  '/'+lang + url ;
+    window.location.href =  '/' + url ;
   }
 }

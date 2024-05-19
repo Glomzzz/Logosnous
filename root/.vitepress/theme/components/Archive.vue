@@ -6,7 +6,7 @@
         v-if="$category"
         class="content"
         closable
-        @close="goToLink(lang,'/archive')"
+        @close="goToLink('archive')"
       >
       <img width="22" src="/assets/components/archive/archive.svg"></img> &ensp;
         {{ $categoryDisplay }} {{ locale.titlePost.replace('{count}',$articleData.length+'')  }}
@@ -15,7 +15,7 @@
         v-else-if="$tag"
         class="content"
         closable
-        @close="goToLink(lang,'/archive')"
+        @close="goToLink('archive')"
       >
       <img width="22" src="/assets/components/archive/archive.svg"></img> &ensp;
         {{ $tag }} {{ locale.titlePost.replace('{count}',$articleData.length+'')  }}
@@ -24,7 +24,7 @@
         v-else-if="$year"
         class="content"
         closable
-        @close="goToLink(lang,'/archive')"
+        @close="goToLink('archive')"
       >
         <img width="22" src="/assets/components/archive/archive.svg"></img> &ensp;
         {{ $year }}{{ locale.year  }} {{ locale.titlePost.replace('{count}',$articleData.length+'')  }}
@@ -40,7 +40,7 @@
 
     <!-- 时间轴主体 -->
     <div class="timeline-item" v-for="year in $years">
-      <div class="year" @click="goToLink(lang,'/archive', 'year', year+'')">
+      <div class="year" @click="goToLink('archive', 'year', year+'')">
         <img class="chinese-zodiac" width="20"  :src="'/assets/components/archive/chinese-zodiac/' + getChineseZodiac(year) + '.svg'" :title="year != 0 ? locale.years[year % 12] : locale.unknownYear" :alt="locale.zodiac"/>
         <a >{{ year != 0 ? year + locale.year : locale.unknownYear }}</a>
       </div>
@@ -51,7 +51,7 @@
           </span>
           <div class="articles">
             <span v-for="article in articles" class="article">
-              <img @click="goToLink(lang,'/archive', 'category', article.category)" width="16" :src="article.categoryIcon" :title="article.categoryDisplay"></img>
+              <img @click="goToLink('archive', 'category', article.category)" width="16" :src="article.categoryIcon" :title="article.categoryDisplay"></img>
               <a :href="article.path" class="title" target="_blank">{{ article.title }}</a>
               <br>
               <ArticleMetadata :article="article" />
