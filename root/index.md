@@ -5,7 +5,7 @@ gitChangelog: false
 layout: home
 
 hero:
-  name: Librorum
+  name: Logos Nous
   text: 一套高性能且系统化的知识库管理系统
   tagline: 希望这个知识库能够帮助到你，也希望你能够在这里找到你所需要的信息。
   image:
