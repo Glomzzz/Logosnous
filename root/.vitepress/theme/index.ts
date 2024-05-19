@@ -15,14 +15,14 @@ import {
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import 'virtual:uno.css'
 
-/**
- * 行内预览
- */
-import { 
-  NolebaseInlineLinkPreviewPlugin, 
-} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+// /**
+//  * 行内预览
+//  */
+// import { 
+//   NolebaseInlineLinkPreviewPlugin, 
+// } from '@nolebase/vitepress-plugin-inline-link-preview/client'
 
-import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
+// import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 /**
  * 高亮标题
@@ -93,7 +93,7 @@ export const Theme: ThemeConfig = {
     //     } 
     //   ]
     // })
-        app.use(NolebaseInlineLinkPreviewPlugin)
+        // app.use(NolebaseInlineLinkPreviewPlugin)
     // app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
     app.component('WordCloud',WordCloud)
     app.component('ArticleMetadata',ArticleMetadata)

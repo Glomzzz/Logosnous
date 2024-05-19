@@ -94,7 +94,7 @@ category: life
 
 不过 FrankHB 针对我而写的长文确实有看头，批评了两年前的我，我感悟良多，受宠若惊。
 
-完整的对话讨论我会放在[帝球对话录](blogs/chatlog-with-frankHB.md)
+完整的对话讨论我会放在[帝球对话录](/blogs/chatlog-with-frankHB.md)
 ## FrankHB的长文
 
 这里我倒是另外关心的话题了：PL 。本来我是纯吃瓜避免卷入的，但是……

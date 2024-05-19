@@ -6,7 +6,7 @@ tags:
   - 对话录
 category: life
 ---
-# 再赴上海 与朋友共度美好时光
+# 再赴上海 与MHYYYY的交流 同济之旅
 
 ## 与 MHYYYY 吃饭
 
@@ -173,7 +173,7 @@ category: life
 与朋友共度了一个很美好的下午后，晚上七点恋恋不舍的告别了。
 
 在高铁上看到帝球发了新的小长文：
-完整的对话讨论我会放在[帝球对话录](blogs/chatlog-with-frankHB.md)
+完整的对话讨论我会放在[帝球对话录](/blogs/chatlog-with-frankHB.md)
 ### FrankHB-3
 
  > 今天一整天都在搬家，很累。

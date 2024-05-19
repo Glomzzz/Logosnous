@@ -33,7 +33,7 @@ export default defineConfig({
   //导入locales配置
   locales,
   vue: {
-    template: {
+    template: {  
       compilerOptions: {
         isCustomElement: (tag) => customElements.includes(tag),
       },
