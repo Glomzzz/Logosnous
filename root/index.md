@@ -26,21 +26,12 @@ features:
   - title: 系统化
     details: 通过详尽的分类，标签和归档系统，轻松地找到所需文章。
     icon: 📚
-  - title: 易用
-    details: 你仅仅需要编写markdown，Librorum便可生成出美轮美奂的文档！
-    icon: 📝
   - title: 高性能
     details: 采用最新的VitePress技术，享受极速的访问体验。
     icon: 🚀
-  - title: 国际化
-    details: 拥有一套易于配置的国际化系统。
-    icon: 🌐
   - title: 自由
     details: 完全开源，基于MIT License，允许自由使用、修改和分发。
     icon: 🍻
-  - title: 互动性
-    details: 提供评论功能，欢迎读者留言交流思想和建议。
-    icon: 💬
   - title: 多媒体支持
     details: 支持各类媒体格式，包括视频、音频和图像，丰富文章表现力。
     icon: 🎬
