@@ -5,9 +5,9 @@ gitChangelog: false
 layout: home
 
 hero:
-  name: Logos & Nous
-  text: Glom的成长历程，技术笔记，生活感悟，以及一些有趣的事情。
-  tagline: 希望这个心智档案能够帮助到你，也希望你能够在这里找到你所需要的信息。
+  name: Librorum
+  text: 一套高性能且系统化的知识库管理系统
+  tagline: 希望这个知识库能够帮助到你，也希望你能够在这里找到你所需要的信息。
   image:
     src: /assets/logo.png
     alt: Logos & Nous Logo
@@ -26,9 +26,15 @@ features:
   - title: 系统化
     details: 通过详尽的分类，标签和归档系统，轻松地找到所需文章。
     icon: 📚
+  - title: 易用
+    details: 你仅仅需要编写markdown，Librorum便可生成出美轮美奂的文档！
+    icon: 📝
   - title: 高性能
     details: 采用最新的[VitePress](https://vitepress.dev)技术，享受极速的访问体验。
     icon: 🚀
+  - title: 国际化
+    details: 拥有一套易于配置的国际化系统。
+    icon: 🌐
   - title: 自由
     details: 完全开源，基于MIT License，允许自由使用、修改和分发。
     icon: 🍻
