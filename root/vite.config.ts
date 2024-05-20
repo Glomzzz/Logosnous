@@ -39,24 +39,15 @@ export default defineConfig(() => {
         include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
         resolvers: [ArcoResolver({ sideEffect: true, resolveIcons: true })]
       }),
+      
       GitChangelog({ 
         repoURL: () => repoURL, 
-        
-        
       }), 
       GitChangelogMarkdownSection({
-        // locales:gitChangeLogLocales
-        // waiting for Neko to fix.
-        getChangelogTitle: (): string => {
-          return '文件历史'
-        },
-        getContributorsTitle: (): string => {
-          return '贡献者'
-        },
       }),
       Inspect(),
       UnoCSS(),
-      // ThumbnailHashImages(),
+      ThumbnailHashImages(),
       PageProperties(),
       PagePropertiesMarkdownSection({
         exclude(path:string):boolean{

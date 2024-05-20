@@ -15,14 +15,14 @@ import {
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import 'virtual:uno.css'
 
-// /**
-//  * 行内预览
-//  */
-// import { 
-//   NolebaseInlineLinkPreviewPlugin, 
-// } from '@nolebase/vitepress-plugin-inline-link-preview/client'
+/**
+ * 行内预览
+ */
+import { 
+  NolebaseInlineLinkPreviewPlugin, 
+} from '@nolebase/vitepress-plugin-inline-link-preview/client'
 
-// import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
+import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 /**
  * 高亮标题
@@ -48,10 +48,9 @@ import {
 } from '@nolebase/vitepress-plugin-page-properties/client'
 
 import { 
-  NolebaseGitChangelogPlugin 
+  NolebaseGitChangelogPlugin,InjectionKey as NolebaseGitChangelogInjectionKey
 } from '@nolebase/vitepress-plugin-git-changelog/client'
-
-import { InjectionKey as GitChangelogKey } from '@nolebase/vitepress-plugin-git-changelog/client'
+import { locales as gitchangelogLocales } from '../config/components/gitchangelog'
 
 
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
@@ -84,17 +83,12 @@ export const Theme: ThemeConfig = {
       },
     } as NolebaseEnhancedReadabilitiesOptions)
     app.use(NolebaseGitChangelogPlugin)  
-    // app.provide(GitChangelogKey,{
-    //   mapContributors:[
-    //     { 
-    //       name: 'Glomzzz', 
-    //       email: 'glom@skillw.com',
-    //       nameAlias: ['Glom-c','Glomzzz'],
-    //     } 
-    //   ]
-    // })
-        // app.use(NolebaseInlineLinkPreviewPlugin)
-    // app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
+
+    app.provide(NolebaseGitChangelogInjectionKey, {
+      locales: gitchangelogLocales
+    })
+        app.use(NolebaseInlineLinkPreviewPlugin)
+    app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
     app.component('WordCloud',WordCloud)
     app.component('ArticleMetadata',ArticleMetadata)
     app.component('Tag', Tag)

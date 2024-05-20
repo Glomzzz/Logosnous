@@ -5,7 +5,7 @@ import { getNav } from './config/nav'
 import AutoSidebar, { locales as sidebarLocales } from './config/sidebar'
 import { locales as siteLocales } from './config/site'
 import {provider,search} from './config/components/search'
-import { genCategories } from './config/components/categories';
+import {outlines,level} from './config/outline'
 
 export const locales = (()=>{
   const config:any = {}
@@ -16,13 +16,18 @@ export const locales = (()=>{
       ...siteLocales[name],
       themeConfig: {
         nav: getNav(lang.lang) ?? getNav(name),
-        sidebar: sidebarLocales[name]
+        sidebar:  sidebarLocales[lang.lang] ?? sidebarLocales[name],
+        outline: {
+          label: outlines[lang.lang]?.outlineTitle ?? outlines[name]?.outlineTitle,
+          level
+        }
       }
     }
   }
   return config
 })()
 export default defineConfig({
+  head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
   lang: defaultLang.lang,
   //更简洁的url，去掉.html
   cleanUrls: true,
@@ -41,18 +46,13 @@ export default defineConfig({
   },
 
   vite:{
-    // plugins:[ AutoSidebar()]
   },
 
   themeConfig: {
     nav: [],
     sidebar: [],
-    outline:{
-      level: [1,7],
-      label: '大纲'
-    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Glomzzz/Librorum' }
+      { icon: 'github', link: 'https://github.com/Glomzzz/Logosnous' }
     ],
     search:search[provider]
   }
