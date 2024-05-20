@@ -20,27 +20,27 @@ category: life
 
 我在咖啡店门外瞄到了一只可爱的花火，于是偷偷拍下来一张（雾，我好猥琐哦）
 
-![](/assets/blogs/diary/5-8/花火_1.jpg)
+![](/assets/blogs/diary/5-8/coser_1.jpg)
 
 （有点慌，没拍好，于是我准备进店找机会鼓起勇气集邮。）
 
 哎进店就要消费的说，虽然我并不是很饿的说。
-![](/assets/blogs/diary/5-8/消费.jpg)
+![](/assets/blogs/diary/5-8/fee.jpg)
 
 在待餐之余为了缓解尴尬我走上阳台拍了两张美照：这里是上海市中心的市中心啊。
-![](/assets/blogs/diary/5-8/风景_1.jpg)
-![](/assets/blogs/diary/5-8/风景_2.jpg)
+![](/assets/blogs/diary/5-8/view_1.jpg)
+![](/assets/blogs/diary/5-8/view_2.jpg)
 
 好，我坐在花火后面，拿出笔记本假装认真工作。
 
 我仍在犹豫何时能鼓起勇气去找姐姐集邮，但我始终迈不出那一步
 看着店内孤零零的肥宅，我顿感十分孤独。
-![](/assets/blogs/diary/5-8/孤独.jpg)
+![](/assets/blogs/diary/5-8/alone.jpg)
 
 
 就在我刚感慨完“我感觉到孤独”了的时候：一位与我身高相仿的二次元，举起他的手机，在刚才和我相同的位置，以相同猥琐的姿态拍照花火。
 清欣赏：
-![](/assets/blogs/diary/5-8/花火_2.jpg)
+![](/assets/blogs/diary/5-8/coser_2.jpg)
 
 我们俩相视一笑，他就闯进来了（为什么他不用消费啊？？！！）
 
@@ -79,15 +79,15 @@ category: life
 
 ⌊哎！现在还是好孤独啊！（想要女孩子）⌉
 
-![](/assets/blogs/diary/5-8/女孩子_1.jpg)
+![](/assets/blogs/diary/5-8/where_is_the_girl_1.jpg)
 
 我们日常生活的点点滴滴就是奇迹呢。
 
-![](/assets/blogs/diary/5-8/女孩子_1_1.jpg)
+![](/assets/blogs/diary/5-8/where_is_the_girl_1_1.jpg)
 
 也许我不该总宅在家里，而该多出来走走了（？）
-![](/assets/blogs/diary/5-8/女孩子_2.jpg)
-![](/assets/blogs/diary/5-8/女孩子_3.jpg)
+![](/assets/blogs/diary/5-8/where_is_the_girl_2.jpg)
+![](/assets/blogs/diary/5-8/where_is_the_girl_3.jpg)
 
 > 那么我的女孩子呢？！怎么还没来啊？ ( 21:00 )
 
