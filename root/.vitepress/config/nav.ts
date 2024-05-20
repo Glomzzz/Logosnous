@@ -24,8 +24,8 @@ import { rootMode } from './locales';
         {
           text: '关于',
           items: [
-            { text: '关于禁书目录', link: '/about/index', activeMatch: '/about/index' },
-            { text: '关于我', link: '/about/me', activeMatch: '/about/me' }
+            { text: '关于心智档案', link: '/about/index', activeMatch: '/about/index' },
+            { text: '关于我', link: 'https://github.com/Glomzzz'}
           ],
           activeMatch: '/about/'
         },

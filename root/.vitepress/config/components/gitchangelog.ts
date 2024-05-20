@@ -17,7 +17,7 @@ export const locales = localesOf<Locale>({
       noData: "No contributors",
     },
   },
-  root: {
+  'zh-CN': {
     changelog: {
       title: "页面历史",
       noData: "暂无最近变更历史",
