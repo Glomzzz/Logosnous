@@ -2,6 +2,7 @@ import type { MarkdownOptions } from "vitepress";
 import { InlineLinkPreviewElementTransform } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
+import markdownItMathjax3 from 'markdown-it-mathjax3'
 import { cwd } from "node:process";
 export const markdown: MarkdownOptions = {
   lineNumbers: true,
@@ -14,6 +15,7 @@ export const markdown: MarkdownOptions = {
     md.use(UnlazyImages(), {
       imgElementTag: 'NolebaseUnlazyImg',
     })
+    md.use(markdownItMathjax3)
   },
 };
 import { locales as tagLocales } from '../config/components/tag';
