@@ -4,6 +4,7 @@ tags:
   - 趣闻
   - PL
   - 对话录
+  - 日记
 category: life
 ---
 # 再赴上海 与MHYYYY的交流 同济之旅
