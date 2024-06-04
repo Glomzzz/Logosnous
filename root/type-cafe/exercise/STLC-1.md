@@ -23,7 +23,7 @@ $$
 ![](../../assets/type-cafe/exercise/3-4-1.png)
 
 ### 我的答案
-记 $$\Gamma = f:B \ \to \ C,g:A \ \to \ B,x:B$$
+记 $\Gamma = f:B \ \to \ C,g:A \ \to \ B,x:B$
 $$
 {\LARGE 
 
@@ -56,7 +56,7 @@ $$
 }
 $$
 ### 标准答案
-记 $$\Gamma = f:B \ \to \ C,g:A \ \to \ B,x:B$$
+记 $\Gamma = f:B \ \to \ C,g:A \ \to \ B,x:B$
 $$
 {\LARGE 
 
@@ -119,4 +119,6 @@ $$
 \end{align*}
 }
 $$
+
+今天先写到这。
 
