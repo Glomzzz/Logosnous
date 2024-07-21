@@ -23,7 +23,7 @@ $$
 
 ## 3.4.1 更复杂的类型检查过程
 
-![](../../../assets/docs/type-cafe/exercise/3-4-1.png)
+![](/assets/docs/type-cafe/exercise/3-4-1.png)
 
 ### 我的答案
 
@@ -103,8 +103,8 @@ $$
 
 ## 3.6.1 归约练习
 
-![](../../../assets/docs/type-cafe/exercise/3-6-1_.png)
-![](../../../assets/docs/type-cafe/exercise/3-6-1.png)
+![](/assets/docs/type-cafe/exercise/3-6-1_.png)
+![](/assets/docs/type-cafe/exercise/3-6-1.png)
 
 ### 答案
 

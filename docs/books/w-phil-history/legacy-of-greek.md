@@ -203,4 +203,4 @@ icon: /assets/docs/w-phil-history/icons/legacy.jpg
 
 ## 附-同意转载
 
-![](../../../assets/docs/w-phil-history/index/repost.png)
+![](/assets/docs/w-phil-history/index/repost.png)
