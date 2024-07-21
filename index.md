@@ -7,7 +7,7 @@ layout: home
 hero:
   name: Logos & Nous
   text: Glom的心智档案
-  tagline: 希望能帮到你，希望能给你一些灵感
+  tagline: 希望能帮到你.
   image:
     src: /assets/logo.png
     alt: Logos & Nous Logo

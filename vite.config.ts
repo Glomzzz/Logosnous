@@ -17,6 +17,9 @@ import {excludes} from './.vitepress/config/components/properties'
 
 export default defineConfig(() => {
   return {
+    build : {
+      chunkSizeWarningLimit: 1024 * 1024 * 10,
+    },
     
     optimizeDeps: {
       include: [ 
@@ -29,11 +32,10 @@ export default defineConfig(() => {
     },
     ssr: { 
       noExternal: [ 
-        // '@antv/g2plot',
-        // '@arco-design/web-vue',
-        // '@nolebase/vitepress-plugin-inline-link-preview',
-        '@nolebase/vitepress-plugin-highlight-targeted-heading', 
-        '@nolebase/vitepress-plugin-enhanced-readabilities', 
+        '@antv/g2plot',
+        '@arco-design/web-vue',
+        '@nolebase/*', 
+        '@arco-design/*'
       ], 
     }, 
     plugins: [
