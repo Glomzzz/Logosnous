@@ -1,0 +1,85 @@
+.meta-wrapper {
+    margin-top: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.meta-item {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    max-width: 500px;
+    color: var(--vp-c-text-2);
+    cursor: default;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.meta-item:hover {
+    color: var(--vp-c-brand-1);
+}
+
+.meta-item:not(.tag) {
+    margin-right: 1rem;
+}
+
+.meta-item:not(.summary) {
+    margin-right: 1rem;
+}
+
+.meta-item.original {
+    margin-right: 0.5rem;
+    margin-top: -0.5px;
+}
+
+.meta-icon, .meta-content {
+    display: inline-block;
+    margin-right: .375rem;
+    vertical-align: middle;
+    transition: transform 0.3s;
+}
+
+.meta-icon {
+    position: relative;
+    bottom: 2px;
+    transition: transform 0.3s ease;
+}
+
+.meta-icon.author {
+    bottom: 1px;
+}
+
+.meta-icon.date {
+    bottom: 1px;
+}
+
+.meta-icon svg {
+    fill: var(--vp-c-text-2);
+    height: 16px;
+    width: 16px;
+}
+
+.meta-icon:hover {
+    transform: scale(1.1);
+}
+
+.meta-content a {
+    font-weight: 400;
+    color: var(--vp-c-text-2);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.meta-content a:hover {
+    color: var(--vp-c-brand-1);
+}

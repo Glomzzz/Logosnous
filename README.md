@@ -1,12 +1,12 @@
-<p align="center">
-  <img width="350" src="/root/assets/logo.png">
+<p style="align-content: center">
+  <img width="760" src="/assets/logo.png" alt="logo">
 </p>
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" /></a>
+<p style="align-content: center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"  alt="license"/></a>
 </p>
 
-<p align="center">
-  <a href="https://discord.gg/vpxDtmwZ"><img src="https://img.shields.io/discord/1231864138125545503?style=flat&logo=discord&logoColor=white&label=Discord&color=%23404eed" /></a>
+<p style="align-content: center">
+  <a href="https://qm.qq.com/q/piM4MP63D2">QQ Group</a>
 </p>
 
 # 心智档案 | Logosnous
@@ -19,10 +19,11 @@ Logosnous 是一个用于记录 Glom 的个人心智成长的项目。
 
 Glom 希望能够跟踪自己的成长轨迹，同时与他人分享其对生活和技术的见解。
 
-你可以在这里访问： [https://glom.skillw.com](https://glom.skillw.com)
+希望能帮到你.
+
+你可以在这里访问： [https://glomzzz.com](https://glomzzz.com)
 
 本项目基于 [Librorum](https://github.com/Glomzzz/Librorum.git) (VitePress) 构建.
-
 
 ## 如何部署？
 
@@ -41,8 +42,6 @@ npm run dev
 ```
 
 当然，你可以无缝切换到pnpm, yarn, 甚至是bun.
-
-
 
 ## Logos & Nous
 
