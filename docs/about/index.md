@@ -1,6 +1,6 @@
 ---
 date: 2024-05-05 05:05
-icon: /public/assets/logo.png
+icon: /assets/logo.png
 ---
 
 

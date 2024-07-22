@@ -1,6 +1,6 @@
 ---
 date: 2024-06-10 19:12
-icon: /public/assets/docs/w-phil-history/icons/overview.jpg
+icon: /assets/docs/w-phil-history/icons/overview.jpg
 ---
 
 看某个哲学家可以先看他的导读，

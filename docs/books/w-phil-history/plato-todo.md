@@ -6,7 +6,7 @@ tags:
   - 西方哲学史
   - 柏拉图
   - 柏拉图的理念论
-icon: /public/assets/docs/w-phil-history/icons/plato.jpg
+icon: /assets/docs/w-phil-history/icons/plato.jpg
 ---
 # 柏拉图残篇
 ## 大纲

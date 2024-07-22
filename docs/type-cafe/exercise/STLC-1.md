@@ -3,7 +3,7 @@ date: 2024-06-04 15:13
 tags:
   - STLC答案
 category: tech
-icon: /public/assets/docs/type-cafe/exercise/stlc-1-icon.jpg
+icon: /assets/docs/type-cafe/exercise/stlc-1-icon.jpg
 ---
 
 # STLC-1-练习答案

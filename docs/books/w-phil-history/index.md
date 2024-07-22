@@ -4,7 +4,7 @@ tags:
   - 哲学
   - 西方哲学史
 category: philosophy
-icon: /public/assets/docs/w-phil-history/icons/w-history.jpg
+icon: /assets/docs/w-phil-history/icons/w-history.jpg
 ---
 # 《西方哲学史 学术版》笔记
 
