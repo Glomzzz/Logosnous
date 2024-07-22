@@ -1,5 +1,5 @@
 <p style="align-content: center">
-  <img width="760" src="/assets/logo.png" alt="logo">
+  <img width="760" src="/public/public/assets/logo.png" alt="logo">
 </p>
 <p style="align-content: center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"  alt="license"/></a>

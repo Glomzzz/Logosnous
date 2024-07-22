@@ -6,7 +6,7 @@ tags:
   - 奥古斯丁
   - 自由意志
   - 西方哲学史
-icon: /assets/docs/w-phil-history/icons/augustine.jpg
+icon: /public/assets/docs/w-phil-history/icons/augustine.jpg
 ---
 # 奥古斯丁，自由意志与罪&上帝的全能
 

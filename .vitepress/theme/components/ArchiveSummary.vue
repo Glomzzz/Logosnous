@@ -3,7 +3,7 @@
     <!-- 时间轴主体 -->
     <div class="timeline-item">
       <div class="year" @click="goToLink('archive', 'year', year+'')">
-        <img :alt="locale.zodiac" :src="'/assets/components/archive/chinese-zodiac/' + getChineseZodiac(year) + '.svg'"
+        <img :alt="locale.zodiac" :src="'/public/assets/components/archive/chinese-zodiac/' + getChineseZodiac(year) + '.svg'"
              :title="year != 0 ? locale.years[year % 12] : locale.unknownYear"
              class="chinese-zodiac" width="100"/>
         <a>近期文章</a>

@@ -1,6 +1,6 @@
 import { localesOf } from "./locales";
 
-export const image = './assets/logo.png';
+export const image = './public/assets/logo.png';
 
 export const repoURL = 'https://github.com/Glomzzz/Librorum/tree/root-mode'
 

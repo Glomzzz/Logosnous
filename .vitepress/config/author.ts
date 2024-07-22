@@ -12,24 +12,24 @@ export const locales = localesOf<Record<string,Author>>({})
 locales['root'] =    {
     'Glomzzz': {
         name: 'Glomzzz',
-        icon: '/assets/authors/glomzzz.png',
+        icon: '/public/assets/authors/glomzzz.png',
         link: 'https://github.com/Glomzzz',
     },
     'none': {
         name: '未知作者',
-        icon: '/assets/authors/unknown.svg',
+        icon: '/public/assets/authors/unknown.svg',
     }
 }
 
 locales.en =  {
     'Glomzzz': {
         name: 'Glomzzz',
-        icon: '/assets/authors/glomzzz.png',
+        icon: '/public/assets/authors/glomzzz.png',
         link: 'https://github.com/Glomzzz',
     },
     'none': {
         name: 'Unknown',
-        icon: '/assets/authors/unknown.svg',
+        icon: '/public/assets/authors/unknown.svg',
     }
 }
 export const unknownAuthorId = 'none'

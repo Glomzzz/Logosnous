@@ -5,7 +5,7 @@ tags:
   - 哲学
   - 古希腊哲学
   - 空想本源论
-icon: /assets/docs/w-phil-history/icons/legacy.jpg
+icon: /public/assets/docs/w-phil-history/icons/legacy.jpg
 ---
 
 # 古希腊之遗产
@@ -203,4 +203,4 @@ icon: /assets/docs/w-phil-history/icons/legacy.jpg
 
 ## 附-同意转载
 
-![](/assets/docs/w-phil-history/index/repost.png)
+![](/public/assets/docs/w-phil-history/index/repost.png)

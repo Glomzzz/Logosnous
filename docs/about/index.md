@@ -1,11 +1,11 @@
 ---
 date: 2024-05-05 05:05
-icon: /assets/logo.png
+icon: /public/assets/logo.png
 ---
 
 
 <p style="align-content: center">
-  <img width="760" src="/assets/logo.png" alt="logo">
+  <img width="760" src="/public/assets/logo.png" alt="logo">
 </p>
 <p style="align-content: center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"  alt="license"/></a>

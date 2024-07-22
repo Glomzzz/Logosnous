@@ -2,11 +2,11 @@
   <div class="meta-wrapper">
     <!--    <div class="meta-item original">-->
     <!--      <a-tag v-if="isOriginal" color="green">-->
-    <!--        <img alt="from" src="/assets/components/metadata/award.svg" width="29"/>-->
+    <!--        <img alt="from" src="/public/assets/components/metadata/award.svg" width="29"/>-->
     <!--        {{ locale.original.name }}-->
     <!--      </a-tag>-->
     <!--      <a-tag v-else color="arcoblue">-->
-    <!--        <img alt="from" src="/assets/components/metadata/share.svg" width="29"/>-->
+    <!--        <img alt="from" src="/public/assets/components/metadata/share.svg" width="29"/>-->
     <!--        {{ locale.reprint.name }}-->
     <!--      </a-tag>-->
     <!--    </div>-->
@@ -32,7 +32,7 @@
             :title="isOriginal ? locale.original.time : locale.reprint.time"
             alt="date"
             role="img"
-            src="/assets/components/metadata/clock.svg"
+            src="/public/assets/components/metadata/clock.svg"
             width=29>
       </span>
       <span v-if="date">
@@ -61,7 +61,7 @@
             :title="locale.category"
             alt="category"
             role="img"
-            src="/assets/components/metadata/folder.svg"
+            src="/public/assets/components/metadata/folder.svg"
             width=29>
       </span>
       <span class="meta-content">
@@ -80,7 +80,7 @@
             :title="locale.viewCount"
             alt="view-count"
             role="img"
-            src="/assets/components/metadata/eye.svg"
+            src="/public/assets/components/metadata/eye.svg"
             width=29
         >
       </span>
@@ -93,7 +93,7 @@
             :title="locale.tags"
             alt="tags"
             role="img"
-            src="/assets/components/metadata/tags.svg"
+            src="/public/assets/components/metadata/tags.svg"
             width=29
         >
       </span>

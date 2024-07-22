@@ -4,7 +4,7 @@ tags:
   - 算法
   - 停机问题
 category: tech
-icon: /assets/docs/blogs/halting-problem.jpg
+icon: /public/assets/docs/blogs/halting-problem.jpg
 ---
 # 为什么不存在解决停机问题的通用算法？
 

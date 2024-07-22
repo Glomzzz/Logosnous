@@ -4,7 +4,7 @@ tags:
   - 哲学
   - 西方哲学史
   - 苏格拉底
-icon: /assets/docs/w-phil-history/icons/socrates.jpg
+icon: /public/assets/docs/w-phil-history/icons/socrates.jpg
 ---
 # 从苏格拉底开始
 

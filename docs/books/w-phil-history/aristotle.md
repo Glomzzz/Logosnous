@@ -7,7 +7,7 @@ tags:
   - 亚里士多德
   - 本体论
 summary: 亚里士多德,  两千年前的百科全书.
-icon: /assets/docs/w-phil-history/icons/aristotel.jpg
+icon: /public/assets/docs/w-phil-history/icons/aristotel.jpg
 ---
 
 # 亚里士多德

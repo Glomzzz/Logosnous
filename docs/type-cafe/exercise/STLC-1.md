@@ -3,14 +3,14 @@ date: 2024-06-04 15:13
 tags:
   - STLC答案
 category: tech
-icon: /assets/docs/type-cafe/exercise/stlc-1-icon.jpg
+icon: /public/assets/docs/type-cafe/exercise/stlc-1-icon.jpg
 ---
 
 # STLC-1-练习答案
 
 ## 3.3.1 定义谓词 ∈
 
-![](/assets/docs/type-cafe/exercise/3-3-1.png)
+![](/public/assets/docs/type-cafe/exercise/3-3-1.png)
 
 ### 答案
 
@@ -23,7 +23,7 @@ $$
 
 ## 3.4.1 更复杂的类型检查过程
 
-![](/assets/docs/type-cafe/exercise/3-4-1.png)
+![](/public/assets/docs/type-cafe/exercise/3-4-1.png)
 
 ### 我的答案
 
@@ -103,8 +103,8 @@ $$
 
 ## 3.6.1 归约练习
 
-![](/assets/docs/type-cafe/exercise/3-6-1_.png)
-![](/assets/docs/type-cafe/exercise/3-6-1.png)
+![](/public/assets/docs/type-cafe/exercise/3-6-1_.png)
+![](/public/assets/docs/type-cafe/exercise/3-6-1.png)
 
 ### 答案
 

@@ -5,7 +5,7 @@ tags:
   - 命运
   - 哲学
   - vmz
-icon: /assets/docs/blogs/vmz.jpg
+icon: /public/assets/docs/blogs/vmz.jpg
 ---
 # 命运
 > 未完待续

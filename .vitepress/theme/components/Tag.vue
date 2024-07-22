@@ -10,7 +10,7 @@
           height="1em"
           class="larkui-icon icon-svg index-module_size_wVASz"
           style="width: 16px; min-width: 16px; height: 16px"
-          src="/assets/components/tag/tag.svg"
+          src="/public/assets/components/tag/tag.svg"
         />
       </span>
       <span class="tag-breadcrumb-item">{{ locale.title }}</span>
@@ -78,7 +78,7 @@
                 role="img"
                 width="20%"
                 height="20%"
-                src="/assets/components/tag/none.svg"
+                src="/public/assets/components/tag/none.svg"
               />
             </div>
             <p>{{ locale.description }}</p>
