@@ -9,7 +9,7 @@
           size="large"
           @close="goToLink('archive')"
       >
-        <img alt="archive" src="/public/assets/authors/glomzzz.png" width="32"> &ensp;
+        <img alt="archive" src="/assets/authors/glomzzz.png" width="32"> &ensp;
         {{ $categoryDisplay }} {{ locale.titlePost.replace('{count}', $articleData.length + '') }}
       </a-tag>
       <a-tag
@@ -19,7 +19,7 @@
           size="large"
           @close="goToLink('archive')"
       >
-        <img alt="archive" src="/public/assets/authors/glomzzz.png" width="32"> &ensp;
+        <img alt="archive" src="/assets/authors/glomzzz.png" width="32"> &ensp;
         {{ $tag }} {{ locale.titlePost.replace('{count}', $articleData.length + '') }}
       </a-tag>
       <a-tag
@@ -29,7 +29,7 @@
           size="large"
           @close="goToLink('archive')"
       >
-        <img alt="archive" src="/public/assets/authors/glomzzz.png" width="32"> &ensp;
+        <img alt="archive" src="/assets/authors/glomzzz.png" width="32"> &ensp;
         {{ $year }}{{ locale.year }} {{ locale.titlePost.replace('{count}', $articleData.length + '') }}
       </a-tag>
       <a-tag
@@ -37,7 +37,7 @@
           class="content"
           size="large"
       >
-        <img alt="archive" src="/public/assets/authors/glomzzz.png" width="32"> &ensp;
+        <img alt="archive" src="/assets/authors/glomzzz.png" width="32"> &ensp;
         {{ locale.title.replace('{count}', $articleData.length + '') }}
       </a-tag>
     </div>
@@ -45,7 +45,7 @@
     <!-- 时间轴主体 -->
     <div v-for="year in $years" class="timeline-item">
       <div class="year" @click="goToLink('archive', 'year', year+'')">
-        <img :alt="locale.zodiac" :src="'/public/assets/components/archive/chinese-zodiac/' + getChineseZodiac(year) + '.svg'"
+        <img :alt="locale.zodiac" :src="'/assets/components/archive/chinese-zodiac/' + getChineseZodiac(year) + '.svg'"
              :title="year != 0 ? locale.years[year % 12] : locale.unknownYear"
              class="chinese-zodiac" width="100"/>
         <a>{{ year != 0 ? year + locale.year : locale.unknownYear }}</a>

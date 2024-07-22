@@ -9,7 +9,7 @@ hero:
   text: Glom的心智档案
   tagline: 希望能帮到你.
   image:
-    src: /public/assets/logo.png
+    src: /assets/logo.png
     alt: Logos & Nous Logo
   actions:
     - theme: brand
