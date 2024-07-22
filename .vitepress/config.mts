@@ -29,7 +29,7 @@ export const locales = (() => {
     return config
 })()
 export default defineConfig({
-    head: [['link', {rel: 'icon', href: '/public/assets/favicon.ico'}]],
+    head: [['link', {rel: 'icon', href: '/assets/favicon.ico'}]],
     lang: defaultLang.lang,
     //更简洁的url，去掉.html
     cleanUrls: true,

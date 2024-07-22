@@ -28,7 +28,7 @@ features: [ ]
 <HomeContent>
 
 <container>
-    <img src="/public/assets/test.jpg">
+    <img src="/assets/test.jpg">
 </container>
 
 </HomeContent>

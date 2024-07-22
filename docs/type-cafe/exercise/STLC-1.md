@@ -10,7 +10,7 @@ icon: /assets/docs/type-cafe/exercise/stlc-1-icon.jpg
 
 ## 3.3.1 定义谓词 ∈
 
-![](/public/assets/docs/type-cafe/exercise/3-3-1.png)
+![](/assets/docs/type-cafe/exercise/3-3-1.png)
 
 ### 答案
 
@@ -23,7 +23,7 @@ $$
 
 ## 3.4.1 更复杂的类型检查过程
 
-![](/public/assets/docs/type-cafe/exercise/3-4-1.png)
+![](/assets/docs/type-cafe/exercise/3-4-1.png)
 
 ### 我的答案
 
@@ -103,8 +103,8 @@ $$
 
 ## 3.6.1 归约练习
 
-![](/public/assets/docs/type-cafe/exercise/3-6-1_.png)
-![](/public/assets/docs/type-cafe/exercise/3-6-1.png)
+![](/assets/docs/type-cafe/exercise/3-6-1_.png)
+![](/assets/docs/type-cafe/exercise/3-6-1.png)
 
 ### 答案
 

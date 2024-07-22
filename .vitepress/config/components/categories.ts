@@ -24,19 +24,19 @@ export const locales = localesOf<Config>({
 export const categories: Record<string, Category> = {
     'tech': {
         name: 'tech',
-        icon: '/public/assets/components/categories/tech.svg'
+        icon: '/assets/components/categories/tech.svg'
     },
     'life': {
         name: 'life',
-        icon: '/public/assets/components/categories/life.svg'
+        icon: '/assets/components/categories/life.svg'
     },
     'philosophy': {
         name: 'philosophy',
-        icon: '/public/assets/components/categories/philosophy.svg'
+        icon: '/assets/components/categories/philosophy.svg'
     },
     'none': {
         name: 'none',
-        icon: '/public/assets/components/categories/none.svg'
+        icon: '/assets/components/categories/none.svg'
     }
 }
 
