@@ -9,12 +9,6 @@ type Config = Record<string, string>
 
 export const locales = localesOf<Config>({
     root: {
-        tech: '技术',
-        life: '生活',
-        philosophy: '哲学',
-        none: '无分类'
-    },
-    'en': {
         tech: 'Tech',
         life: 'Life',
         none: 'No Category'

@@ -10,10 +10,6 @@ type OutlineLocale = {
 
 
 export const outlines: Record<string,OutlineLocale> = {
-    'zh-CN':{
-      outlineTitle: '大纲',
-      
-    },
     en:{
       outlineTitle: 'On this page'
     }

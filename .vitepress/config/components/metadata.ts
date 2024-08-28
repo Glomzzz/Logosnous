@@ -24,23 +24,6 @@ export const config = {
 
 export const locales = localesOf<Config>({
     root : {
-        author: '作者',
-        authorLink:'进入作者主页',
-        unknownTime: '未知时间',
-        untitled: '无标题',
-        original:{
-            name:'原创',
-            time: '发布时间',
-        },
-        reprint:{
-            name:'转载',
-            time: '转载时间',
-        },
-        viewCount:'阅读量',
-        category:'所属分类',
-        tags:'标签列表',
-    },
-    'en': {
         author: 'Author',
         authorLink: 'Visit author\'s homepage',
         unknownTime: 'Unknown time',

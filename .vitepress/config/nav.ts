@@ -7,25 +7,25 @@ import { rootMode } from './locales';
  const navs: Record<string,DefaultTheme.Config['nav']> = {
     root :[
         {
-            text: '文章',
+            text: 'Posts',
             items: genCategories('root'),
             activeMatch: 'blogs'
         },
         {
-          text: '标签',
+          text: 'Tags',
           link: '/tag',
           activeMatch: 'tag'
         },
         {
-          text: '时光轴',
+          text: 'Archive',
           link: '/archive',
           activeMatch: '/archive'
         },
         {
-          text: '关于',
+          text: 'About',
           items: [
-            { text: '关于心智档案', link: '/about/index', activeMatch: '/about/index' },
-            { text: '关于我', link: 'https://github.com/Glomzzz'}
+            { text: 'About Logosnous', link: '/about/index', activeMatch: '/about/index' },
+            { text: 'About Me', link: 'https://github.com/Glomzzz'}
           ],
           activeMatch: '/about/'
         },

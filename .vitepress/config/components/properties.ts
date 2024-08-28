@@ -6,35 +6,6 @@ export const excludes = [
 ]
 
 export const properties = localesOf<Property<"progress" | "tags">[]>( {
-  "zh-CN": [
-    {
-      key: "tags",
-      type: "tags",
-      title: "标签",
-    },
-    {
-      key: "progress",
-      type: "progress",
-      title: "完成进度",
-    },
-    {
-      key: "wordCount",
-      type: "dynamic",
-      title: "字数",
-      options: {
-        type: "wordsCount",
-      },
-    },
-    {
-      key: "readingTime",
-      type: "dynamic",
-      title: "阅读时间",
-      options: {
-        type: "readingTime",
-        dateFnsLocaleName: "zhCN",
-      },
-    },
-  ],
   en: [
     {
       key: "tags",

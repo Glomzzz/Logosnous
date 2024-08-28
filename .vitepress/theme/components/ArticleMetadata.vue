@@ -133,7 +133,7 @@ import {onMounted, reactive, toRefs} from "vue";
 //@ts-ignore
 import md5 from "blueimp-md5";
 import dayjs from "dayjs";
-import "dayjs/locale/zh-cn";
+import "dayjs/locale/en";
 import relativeTime from "dayjs/plugin/relativeTime";
 import {goToLink} from "../utils";
 import {config, locales as metadataLocales} from "../../config/components/metadata";

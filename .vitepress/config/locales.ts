@@ -5,8 +5,8 @@ export type Lang = {
 
 export const langs: Record<string, Lang> = {
   "root": {
-    lang: "zh-CN",
-    label: "简体中文",
+    lang: "en",
+    label: "English",
   },
 };
 /**

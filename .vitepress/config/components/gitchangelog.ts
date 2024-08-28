@@ -17,19 +17,4 @@ export const locales = localesOf<Locale>({
       noData: "No contributors",
     },
   },
-  'zh-CN': {
-    changelog: {
-      title: "页面历史",
-      noData: "暂无最近变更历史",
-      lastEdited: "最后编辑于 {{daysAgo}}",
-      lastEditedDateFnsLocaleName: "zhCN",
-      viewFullHistory: "查看完整历史",
-      committedOn: " 于 {{date}}",
-    },
-
-    contributors: {
-      title: "贡献者",
-      noData: "暂无相关贡献者",
-    },
-  },
 });

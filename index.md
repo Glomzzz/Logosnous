@@ -1,25 +1,24 @@
 ---
-# 不进行归档
 metadata: false
 gitChangelog: false
 layout: home
 
 hero:
   name: Logos & Nous
-  text: Glom的心智档案
-  tagline: 希望能帮到你.
+  text: Glom's Archive
+  tagline: El psy kongaroo.
   image:
     src: /assets/logo.png
     alt: Logos & Nous Logo
   actions:
     - theme: brand
-      text: 开始阅读
+      text: View
       link: /archive
     - theme: alt
-      text: 加入 QQ Group
-      link: https://qm.qq.com/q/piM4MP63D2
+      text: Telegram
+      link: https://t.me/+-8Oa1pnQuVhhNDg1
     - theme: alt
-      text: 在 GitHub 上浏览
+      text: GitHub
       link: https://github.com/Glomzzz/Logosnous
 
 features: [ ]

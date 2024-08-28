@@ -12,8 +12,8 @@ export interface Site{
 
 export const locales = localesOf({
   root:{
-    title: 'Glom的心智档案',
-    description: '心智成长档案库。',
+    title: 'Glom Logosnous',
+    description: 'A blog about technology, life, and philosophy.',
     link: '/',
     unknown: 'unknown.md',
   }
